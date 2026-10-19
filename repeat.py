@@ -147,6 +147,93 @@
 # print(days_since)
 
 
+# from datetime import datetime
+# now = datetime.now()
+
+# timestamp = datetime.timestamp(now)
+# print(timestamp)
+
+# from datetime import datetime
+
+# timestamp = 1617183600
+
+# dt_object = datetime.fromtimestamp(timestamp)
+
+# print(dt_object)
+
+# datetime_object.strftime(format)
+
+# from datetime import datetime
+
+# now = datetime.now()
+
+# # Форматування дати і часу
+# formatted_date = now.strftime("%Y-%m-%d %H:%M:%S")
+# print(formatted_date) 
+
+# # Форматування лише дати
+# formatted_date_only = now.strftime("%A, %d %B %Y")
+# print(formatted_date_only)
+
+# # Форматування лише часу
+# formatted_time_only = now.strftime("%I:%M %p")
+# print(formatted_time_only)  
+
+# # Форматування лише дати
+# formatted_date_only = now.strftime("%d.%m.%Y")
+# print(formatted_date_only)
+
+# from datetime import datetime
+# now = datetime.now()
+
+# formated_date = now.strftime("%Y-%m-%d %H:%M:%S")
+# print(formated_date)
+
+# formated_date_only = now.strftime("%A, %d %B %Y")
+# print(formated_date_only)
+
+# formated_time_only = now.strftime("%I:%M %p")
+# print(formated_time_only)
+
+# formated_date_only = now.strftime("%d.%m.%Y")
+# print(formated_date_only)
+# from datetime import datetime
+
+# def string_to_time(time_string):
+#     return datetime.strptime(time_string, "%H:%M").time()
+
+# def time_to_string(time):
+
+#     return time.strftime("%H:%M")
+# time_string = "9:30"
+# converted_time = string_to_time(time_string)
+
+# from datetime import datetime
+
+# date = datetime( year=2023, month=12, day=18)
+
+# ordinal_number = date.toordinal()
+# print(f'порядковий намер дати {date}становить {ordinal_number}')
+
+# from datetime import datetime
+
+# now = datetime.now()
+
+# timestamp = datetime.timestamp(now)
+# print(timestamp)
 
 
+# from datetime import datetime, timedelta
 
+# now = datetime.now()
+# future_date = now + timedelta(days=10)
+# print(future_date)yelenchukivan12102015@lyceumpetropavlivskyi.in.ua
+
+# from datetime import datetime, timedelta
+
+# seventh_days_2020 = datetime(year=2020, month=1, day=7, hour=14)
+# four_weeks_interval = timedelta(weeks=4)
+
+# print( seventh_days_2020 - four_weeks_interval) 
+# print( seventh_days_2020 + four_weeks_interval) 4
+r = 2
